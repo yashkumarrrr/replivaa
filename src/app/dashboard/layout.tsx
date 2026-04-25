@@ -61,7 +61,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
           <div className="w-8 h-8 rounded-lg bg-gray-900 flex items-center justify-center">
             <span className="text-white text-xs font-bold">IC</span>
           </div>
-          <span className="font-semibold text-gray-900">InstaClient AI</span>
+          <span className="font-semibold text-gray-900">RepliVa AI</span>
         </Link>
       </div>
 
@@ -155,7 +155,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
           <button onClick={() => setSidebarOpen(true)} className="text-gray-600">
             <Menu size={20} />
           </button>
-          <span className="font-semibold text-gray-900">InstaClient AI</span>
+          <span className="font-semibold text-gray-900">RepliVa AI</span>
           <div className="w-5" />
         </header>
 
